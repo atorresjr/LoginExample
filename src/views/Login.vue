@@ -6,7 +6,8 @@
 			<input id="username" type="text" class="flex items-center h-12 px-4 mt-2 rounded focus:outline-none focus:ring-2 text-coolGray-900" v-model="email"> 
 			<label for="password" class="self-start mt-3 text-xs font-semibold">Password</label>
 			<input id="password" type="password" class="flex items-center h-12 px-4 mt-2 rounded focus:outline-none focus:ring-2 text-coolGray-900" v-model="password">
-			<button @click="login" class="btn btn-primary mt-4">Login</button>			
+			<button @click="login" class="btn btn-primary mt-4">Login</button>		
+			<button @click="SignUp" class="btn btn-primary mt-4">SignUp</button>		
 		</form>
 	</div>
 </section>
